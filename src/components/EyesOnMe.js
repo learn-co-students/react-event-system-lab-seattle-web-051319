@@ -11,7 +11,7 @@ export default class EyesOnMe extends Component {
 	}
 	
 	render() {
-		return <button onFocus={this.handleFocus} onBlur={this.handleBlur} />;
+		return <button onFocus={this.handleFocus} onBlur={this.handleBlur}></button>;
 	}
 	
 }
